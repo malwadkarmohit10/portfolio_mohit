@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-family: 'poppins', sans-serif;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(17, 17, 70);
+    
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(122, 118, 235);
+    font-size: 1.04rem;
+}
+.highlighter {color: blueviolet;}
+
+.left {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-inline: 50px;
+    margin-block: 50px;
+    gap: 50px;
+
+}
+
+.firstSection>div {
+    
+}
+
+.rightsection {
+
+    font-size: 1.2rem;
+    ;
+
+}
+
+.rightsection .resume {
+    background-color: #4CAF50;
+    border: 1px solid white;
+    border-radius: 6px;
+    color: white;
+    padding: 7px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.leftsection img {
+    width: 300px;
+    margin-inline: 50px;
+}
+
+.purple {
+    color: blueviolet;
+    font-size: 1.2rem;
+}
+
+#element {
+    color: blueviolet;
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+main hr {
+    border: 0;
+    background-color: rgb(9, 16, 117);
+    height: 1.2px;
+    background: navy;
+
+    height: 2px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+    display: flex;
+}
+
+.services {
+    display: flex;
+    gap: 2px;
+    margin: 30px;
+}
+
+.services h3 {
+    color: rgb(8, 104, 194);
+    font-size: 1.3rem;
+}
+
+.services li {
+    list-style: none;
+    margin-inline: 20px;
+}
+
+.services img{width: 300px;
+margin-block: 10px;
+border: 1px solid rgb(9, 16, 117);
+}
+
+.services a {
+    text-decoration: none;
+    color: rgb(8, 104, 194);}
+
+.services a:hover {
+    color: rgb(18, 12, 185);
+    font-size: 1.04rem;}
+
+
+
+.copyright {
+    text-align: center;
+    background-color: rgb(17, 17, 70);
+}
+
+.exp {margin: 30px 50px;}
+.exp h2{color: navy;
+margin-bottom: 10px;}
+.exp li {margin-left: 40px;}
+.exp h3{color: rgb(8, 104, 194);
+margin-top: 15px;
+margin-bottom: 5px;}
+.exp h4{margin-top: 10px;}
+.exp img {margin-top: 10px;
+margin-bottom: 10px;
+margin-left: 15px   ;}
+.hyperlinks {margin-left: 60px;
+margin-bottom: 15px;}
+
+.hyperlinks a {
+   text-decoration: none;
+    color: black;
+    }
+
+
+    .hyperlinks a:hover {
+        color: blueviolet;
+        font-size: 1.04rem;}
+        .hyperlinks li {list-style-type: square;}
+
+
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+
+    .firstSection {
+        flex-direction: column;
+    }
+    
+
+    .services {
+        flex-direction: column;
+    }
+
+    nav {
+        flex-direction: column;
+        
+    }
+    body {min-width: fit-content;}
+    
+    
+    
+}
+@media screen and (max-width: 350px) {
+
+    .firstSection {
+        flex-direction: column;
+    }
+    
+
+    .services {
+        flex-direction: column;
+    }
+
+    nav {
+        flex-direction: column;
+        
+    }
+    body {min-width: fit-content;}
+    
+    
+    
+}
+
+@media screen and (max-width: 300px) {
+    .firstSection a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .right {
+        float: none;
+      }
+    }
+  
+   
+ 
+
+
+
+
+    
+    

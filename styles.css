@@ -38,6 +38,10 @@ nav ul li a:hover {
     color: rgb(122, 118, 235);
     font-size: 1.04rem;
 }
+.exp a:hover {
+    color: rgb(122, 118, 235);
+    font-size: 101%;
+}
 .highlighter {color: blueviolet;}
 
 .left {
